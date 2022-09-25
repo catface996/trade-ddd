@@ -8,7 +8,7 @@ import com.baomidou.mybatisplus.generator.config.PackageConfig;
 import com.baomidou.mybatisplus.generator.config.StrategyConfig;
 import com.baomidou.mybatisplus.generator.config.TemplateConfig;
 import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
-import com.catface.trade.BaseTest;
+import com.catface.trade.BasePayService;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Value;
 
@@ -23,7 +23,7 @@ import static com.baomidou.mybatisplus.generator.config.rules.DateType.ONLY_DATE
  * @author K神
  * @date 2017/12/18
  */
-public class GeneratorServiceEntity extends BaseTest {
+public class GeneratorServiceEntity extends BasePayService {
 
     private final String outPutDir = "../repository/src/main/java";
     private final String packageName = "com.catface.trade.repository";

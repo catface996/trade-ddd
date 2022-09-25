@@ -8,7 +8,7 @@ public class SwaggerTagConst {
 
     private SwaggerTagConst() {}
 
-    public static final String GOODS_MANAGE = "商品管理";
+    public static final String TRADE_ORDER = "交易订单";
 
     public static final String SAY_HELLO = "打招呼";
 
